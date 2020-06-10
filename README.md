@@ -1,6 +1,6 @@
 <h2>A Web-based simple Music Platform</h2>
 <br>
-<img src = "https://postfiles.pstatic.net/MjAyMDA2MDJfNzIg/MDAxNTkxMTA0NzM3ODQy.hszpC-QyXLnmuf9fEfVcjEyd0XkyE6z55QxD5BdhNFog.bZZXabFnxcS3tjrhUHy0LDiULI6ev6B5iKEoNVSE8VAg.PNG.ods04193/SE-4876a210-4afb-4695-85a5-732f1cec3e20.png?type=w966" >
+<img src = "https://postfiles.pstatic.net/MjAyMDA2MTBfMyAg/MDAxNTkxNzYzOTE5Mzkx.zeLLy1RoTe-3LayJGTENrxN0taODD6xOmhLWjTA292wg.KxPQtE0LMq_tKdPqvbSfs0AfVbVxlalJr1g25VYk4mAg.PNG.ods04193/image.png?type=w966" >
 <br>
   <p>
   This platform is being made for the school team project.<br>

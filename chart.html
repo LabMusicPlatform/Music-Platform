@@ -13,29 +13,19 @@
 
 
 <style>
+    body{
+            background-image: url('https://data2.1freewallpapers.com/download/sky-clouds-summer.jpg'); 
+            background-size: 100% 100%;
+            background-attachment: fixed;}
 
 
 
-html,body{width:100%;height:100%}
-
-html{overflow-y:scroll}
-body {background-image:url("https://data2.1freewallpapers.com/download/sky-clouds-summer.jpg");         
-
-background-repeat:no-repeat;                 <!-- 배경 이미지 반복 삭제(설정 안할시 반복)   -->
-
-background-position:right top;               <!-- 배경 이미지가 보일 위치 설정 -->  
-
-background-size:width:100% height:100%;}​    <!-- 배경 이미지 사이즈 설정 -->  
-
-​  
-
-background-size:cover
 
 
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button{margin:0;padding:0}
 
-body,h1,h2,h3,h4,input,button{font-family:NanumGothicWeb,verdana;font-size:13px;color:#fff;text-align:center;}
+body,h1,h3,h4,input,button{font-family:NanumGothicWeb,verdana;font-size:13px;color:#fff;text-align:center;}
 
 body{background-color:#000000;*word-break:break-all;-ms-word-break:break-all;}
 
@@ -62,6 +52,7 @@ nav li{float:right;padding-right:5px;font-family:verdana;display:inline-block;}
 nav li span{display:inline-block;padding:3px 10px;border-radius:5px;background-color:#fff;} 
 
 section{text-align: left;float:right;width:758px;margin-top:15px;margin-bottom:20px;padding:20px;border:1.5px solid #ccc;line-height:20px;border-radius:15px;}
+<!-- 이게 아마 전체 테두리 -->
 
 article{margin-bottom:20px;}
 
@@ -69,10 +60,12 @@ article h3{font-size:16px}
 
 footer{text-align:center;}
 
-summary{background-color: #405770; width:70px; font-size: 16px;} 
+summary{background-color: #405770; width:170px; font-size: 20px;} 
 <!-- 장르별이라고 써놓은 부분. 글자수 조정시 width 조정해줘야 함 -->
 
-details{font-size: 14px;}
+details{font-size: 14px; }
+
+pre{color: #192230;}
 
 </style>
 
@@ -123,13 +116,15 @@ details{font-size: 14px;}
     <header>
 
 	
-			<img src ="https://postfiles.pstatic.net/MjAyMDA2MDFfMjE0/MDAxNTkxMDA4NDE0MjA2.D86ngs42NCQ56LUv--_4Rxr8wyuv5-7JM7EXJ7ti7Z4g.eB2jMvtoEIdMluyoOxQ7vtGogBtV48IxWoL6E6tFY5Mg.PNG.ods04193/header.png?type=w966"" >
-            <!-- Music-Platform 제목해놓은 거! 포샵있는사람 예쁘게 만들어바방 ㅠㅠ -->
+			<img src = "https://postfiles.pstatic.net/MjAyMDA2MDlfMTIx/MDAxNTkxNjk5NzAyNjE4.RyjJ_sx0972klfblq8MYDCOFqZmOOOtW8vlyU-pdeWQg.lRyczhEFpwy5J31cQStU0-aY4xdSDSh72gp6oIABqbog.PNG.ods04193/music_platform2.png?type=w966" >
+            <!-- Music-Platform 제목 -->
 
 		  <ul>
             <!--각자 저장위치에 맞게 경로명 수정해줘야행 ! -->
             <li><a class="active" href="file:///C:\Users\Dami\Desktop\수업\Lab\html텀프로젝트\main.html">HOME</a></li>
             <li><a href="file:///C:\Users\Dami\Desktop\수업\Lab\html텀프로젝트\chart.html">CHART</a></li>
+		    <li><a href="file:///C:\Users\Dami\Desktop\수업\Lab\html텀프로젝트\recommand.html">RECOMMAND</a></li>
+			<li><a href="file:///C:\Users\Dami\Desktop\수업\Lab\html텀프로젝트\board.html">BOARD</a></li>
             <!--
 			<li><a href=""></a></li>
             <li><a href=""></a></li> 
@@ -142,7 +137,7 @@ details{font-size: 14px;}
 	<section>
 
 		<article>
-		<p>6월 첫째 주 인기 차트</p>
+		<h2><p align = "center" >6월 첫째 주 인기 차트</p></h2>
 		<br>
 		
 		<!--
@@ -153,23 +148,183 @@ details{font-size: 14px;}
 		<br>
 		<br>
 <details>
-<summary>장르별</summary>
+<summary>장르 종합 100 </summary>
 <br>
-<img src ="https://i.ytimg.com/vi/l0EYajZMuQw/maxresdefault.jpg" width="650" height="380" > <!-- 아이유 앨범사진 넣어놨음 -->
-	<audio autoplay controls> <source src="test.mp3" type="audio/mp3"> </audio> <!--사진 아래에 음악 재생 플레이어
-                                                                                            넣어놨음. 음악 파일 있으면
-                                                                                            재생 가능할거 같음-->
 <br>
-<p>여기 차트 보여지는 곳</p>
+
+<pre> <b>
+<!-- 크롤링 -->
+  1위 아이유 - 에잇(Prod.&Feat. SUGA of BTS)
+  2위 전미도 - 사랑하게 될 줄 알았어
+  3위 조정석 - 아로하
+  4위 식케이 (Sik-K), pH-1, 박재범, 김하온 (HAON) - 깡 Official Remix
+  5위 TWICE (트와이스) - MORE & MORE
+  6위 오마이걸 - 살짝 설랬어 (Nonstop)
+  7위 볼빨간사춘기 - 나비와 고양이 (feat.백현 (BAEKHYUN))
+  8위 백현 (BAEKHYUN) - Candy
+  9위 방탄소년단 - ON
+ 10위 조이 (JOY) - 좋은 사람 있으면 소개시켜줘
+ 11위 미도와 파라솔 - 너에게 난, 나에게 넌
+ 12위 규현 (KYUHYUN) - 화려하지 않은 고백
+ 13위 방탄소년단 - 작은 것들을 위한 시 (Boy With Luv) (Feat. Halsey)
+ 14위 오마이걸 - Dolphin
+ 15위 가호 (Gaho) - 시작
+ 16위 엠씨더맥스 (M.C the MAX) - 처음처럼
+ 17위 백현 (BAEKHYUN) - 너를 사랑하고 있어
+ 18위 Tones And I - Dance Monkey
+ 19위 임영웅 - 이제 나만 믿어요
+ 20위 어반자카파 - 그대 고운 내사랑
+ 21위 지코 (ZICO) - 아무노래
+ 22위 장범준 - 흔들리는 꽃들 속에서 네 샴푸향이 느껴진거야
+ 23위 오반 - 어떻게 지내 (Prod. By VAN.C)
+ 24위 아이유 - Blueming
+ 25위 Apink (에이핑크) - 덤더럼(Dumhdurum)
+ 26위 Maroon 5 - Memories
+ 27위 Dua Lipa - Don't Start Now
+ 28위 창모 (CHANGMO) - METEOR
+ 29위 방탄소년단 - 00:00 (Zero O’Clock)
+ 30위 백현 (BAEKHYUN) - Bungee
+ 31위 백현 (BAEKHYUN) - Love Again
+ 32위 휘인 (Whee In) - 내 눈물 모아
+ 33위 방탄소년단 - Black Swan
+ 34위 방탄소년단 - 친구
+ 35위 방탄소년단 - Filter
+ 36위 백현 (BAEKHYUN) - Poppin'
+ 37위 방탄소년단 - Moon
+ 38위 백현 (BAEKHYUN) - Underwater
+ 39위 백현 (BAEKHYUN) - 너에게 가는 이 길 위에서 (너.이.길)
+ 40위 Anne-Marie - 2002
+ 41위 아이유 - 마음을 드려요
+ 42위 방탄소년단 - 시차
+ 43위 방탄소년단 - Inner Child
+ 44위 방탄소년단 - We are Bulletproof : the Eternal
+ 45위 백현 (BAEKHYUN) - R U Ridin'?
+ 46위 런치 - 어떻게 지내 (답가)
+ 47위 김필 - 그때 그 아인
+ 48위 백현 (BAEKHYUN) - Ghost
+ 49위 Red Velvet (레드벨벳) - Psycho
+ 50위 태연 (TAEYEON) - Happy
+ 51위 방탄소년단 - Louder than bombs
+ 52위 노을 - 늦은 밤 너의 집 앞 골목길에서
+ 53위 하현우 (국카스텐) - 돌덩이
+ 54위 임영웅 - 어느 60대 노부부이야기
+ 55위 EXO - Obsession
+ 56위 방탄소년단 - 욱 (UGH!)
+ 57위 마크툽 (MAKTUB) - 오늘도 빛나는 너에게 (To You My Light) (Feat.이라온)
+ 58위 방탄소년단 - Interlude : Shadow
+ 59위 ITZY (있지) - WANNABE
+ 60위 Conan Gray - Maniac
+ 61위 AKMU (악동뮤지션) - 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지
+ 62위 청하 - Be Yourself
+ 63위 폴킴 - 모든 날, 모든 순간 (Every day, Every Moment)
+ 64위 방탄소년단 - Outro : Ego
+ 65위 비 - 깡
+ 66위 방탄소년단 - Respect
+ 67위 임영웅 - 바램
+ 68위 IZ*ONE (아이즈원) - FIESTA
+ 69위 황인욱 - 취했나봐
+ 70위 방탄소년단 - 봄날
+ 71위 폴킴 - 우리 만남이
+ 72위 진민호 - 반만
+ 73위 권진아 - Lonely Night
+ 74위 영탁 - 찐이야
+ 75위 수호 (SUHO) - 사랑, 하자
+ 76위 Raiden, 찬열 (CHANYEOL) - Yours (Feat. 이하이, 창모)
+ 77위 Ariana Grande, Justin Bieber - Stuck with U
+ 78위 신예영 - 우리 왜 헤어져야 해
+ 79위 전상근 - 사랑은 지날수록 더욱 선명하게 남아
+ 80위 미도와 파라솔 - 밤이 깊었네 (Drama Ver.)
+ 81위 볼빨간사춘기 - 품
+ 82위 임영웅 - 보라빛 엽서
+ 83위 아이유 - Love poem
+ 84위 마마무 (Mamamoo) - HIP
+ 85위 폴킴 - 안녕
+ 86위 마크툽 (MAKTUB) - 너를 그린 우주 (Insomnia2020) (Feat. 이라온)
+ 87위 NCT 127 - 영웅 (英雄; Kick It)
+ 88위 김호중 - 나보다 더 사랑해요
+ 89위 투모로우바이투게더 - 세계가 불타버린 밤, 우린... (Can't You See Me?)
+ 90위 Lauv - Paris In The Rain
+ 91위 청하 - Stay Tonight
+ 92위 NCT 127 - Punch
+ 93위 임영웅 - 아로하
+ 94위 임영웅 - 응급실
+ 95위 Crush - 자나깨나 (Feat. 조이 of Red Velvet)
+ 96위 영탁 - 니가 왜 거기서 나와 (Narr. 고은아)
+ 97위 Billie Eilish - bad guy
+ 98위 임영웅 - 일편단심 민들레야
+ 99위 임영웅 - 상사화
+100위 Sam Smith - To Die For 
+</b>
+</pre>
+</details>
+<br>
+<details>
+<summary>해외 종합 50 </summary>
+<br>
+<br>
+
+<pre> <b>
+<!-- 크롤링 -->
+  1위 Niall Horan - Black And White (Oliver Nelson Remix)
+  2위 Daryl Braithwaite - Underground
+  3위 Jessie Ware - Saari Raat
+  4위 Niall Horan - The Best For You
+  5위 More Giraffes - Who
+  6위 Bharatt-Saurabh - About a Broken Heart
+  7위 OuYang Nana - Silent All These Years
+  8위 Lauv - Gimme Snow
+  9위 Kathryn Ostenberg - California Sun
+ 10위 Kat Leon - Moonride
+ 11위 Foxworth Hall - Crois au printemps
+ 12위 California Sun - On the Wire
+ 13위 Hanfidel - Better
+ 14위 M - Family Values (of Montreal Remix)
+ 15위 Yann Tiersen - Vergeet Me
+ 16위 Dominic Chin - Sunset
+ 17위 BRONCHO - Meet Me at the Rose Garden
+ 18위 BENR - Always on Time
+ 19위 Kurei - Daredevil
+ 20위 Mediocre Cafe - Jealous
+ 21위 milk. - Ik Hoef Niet Te Liegen
+ 22위 Qaayel - Close to the Sun
+ 23위 Riva Taylor - Mama
+ 24위 Russo - Somewhere in Ann Arbor
+ 25위 Natalie Holmes - Save A Kiss (Totally Enormous Extinct Dinosaurs Remix)
+ 26위 Moza Kaliza - Nothing
+ 27위 Anson Seabra - Save A Kiss (PS1 Remix)
+ 28위 Jessie Ware - Byen
+ 29위 Bruno Major - Boten Anna
+ 30위 Jessie Ware - Wybornie
+ 31위 Artigeardit - FNP
+ 32위 Kevin Boine - A Better Morning (All Stars Version)
+ 33위 Marzena Ryt - Wish You the Best
+ 34위 Billy No Mates - QT3.14
+ 35위 Boyd Kosiyabong, Ben Chalatit, ToR Saksit, MVL, Wut Wongsunsern - Cravings
+ 36위 Kaci Leigh - Zoals Jij
+ 37위 Jinka - Midnight Special
+ 38위 Christiane - Sanctuary
+ 39위 Sterre Koning - Philosophical
+ 40위 Marlana - September
+ 41위 Mason Watts - Love Songs
+ 42위 Sonia Stein - Lola à l'eau
+ 43위 Up Sunny Down - All By Myself (feat. ELI)
+ 44위 Daryl Braithwaite - Bad Intentions (Faustix Remix)
+ 45위 Lola Le Lann - Dance Dance Dance
+ 46위 Lahos - Your Hero Is Not Dead
+ 47위 Alexander Oscar - Alive
+ 48위 Astrid S - You Ain't Big
+ 49위 Westerman - Walk With Me
+ 50위 Maria Lynn - Make A Difference
+</b>
+</pre>
 </details>
 
-
-
+</article>
 	</section>
 
  
 <img id="img1" style="position:absolute; left:0; top:0; z-index:999;" src="https://postfiles.pstatic.net/MjAyMDA2MDFfNzQg/MDAxNTkxMDA1NjczMjI1.yJsAc5aLQYPF8dn3KD72KXAWcQ3OfNrcrV9Hn5YlryMg.J2LXK-j4q0bqeDzni_YxKAmcYkWlSQ-I9vkgzO_tgQcg.PNG.ods04193/cursor.png?type=w966">
- 
+
 <script language="JavaScript">
 //여기는 마우스커서 음표 따라오는 거 구현하기위한 자바스크립트 코드
 //자바스크립트 코드라 주석이 슬래쉬
@@ -206,7 +361,7 @@ details{font-size: 14px;}
 </script>
 	
 	<footer>
-<p>Copyright ⓒ 2020 Dami All Rights Reserved</p>
+<p>Copyright ⓒ 2020 Lab All Rights Reserved</p>
 <!-- 추후에 팀네임 적읍시당 -->
 </footer>
 

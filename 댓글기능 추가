@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Menu | System</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+
+
+<style>
+
+    body{
+            background-image: url('https://data2.1freewallpapers.com/download/sky-clouds-summer.jpg');
+            background-size: 100% 100%;
+            background-attachment: fixed;}
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button{margin:0;padding:0}
+
+body,h1,h3,h4,input,button{font-family:NanumGothicWeb,verdana;font-size:13px;color:#fff;text-align:center;}
+
+body{background-color:#000000;*word-break:break-all;-ms-word-break:break-all;}
+
+img,fieldset,iframe{border:0 none}
+
+li{list-style:none}
+
+
+
+#wrap{width:800px;margin:0 auto}
+
+header{margin-top:20px;padding:20px;}
+
+hgroup{overflow:hidden;padding-bottom:50px}
+
+hgroup h1{float:center;font-size:18px;color:#fff;}
+
+hgroup h2{float:right;font-weight:normal;color:#fff;opacity:0.8}
+
+nav{clear:both;overflow:hidden;}
+
+nav li{float:right;padding-right:5px;font-family:verdana;display:inline-block;}
+
+nav li span{display:inline-block;padding:3px 10px;border-radius:5px;background-color:#fff;}
+
+section{text-align: left;float:right;width:758px;margin-top:15px;margin-bottom:20px;padding:20px;border:1.5px solid #ccc;line-height:20px;border-radius:15px;}
+
+article{margin-bottom:20px;}
+
+article h3{font-size:16px}
+
+footer{text-align:center;}
+
+summary{background-color: #405770; width:170px; font-size: 20px;}
+<!-- 장르별이라고 써놓은 부분. 글자수 조정시 width 조정해줘야 함 -->
+
+details{font-size: 14px;}
+
+pre{color: #192230;}
+
+</style>
+
+
+</head>
+
+
+
+<body>
+<style>
+            ul {
+                list-style: none;
+                margin: 0;
+                padding : 0;
+                overflow: hidden;
+                background-color: #405770; <!--메뉴바 색 -->
+            }
+
+            li {
+                float : left;
+            }
+
+            li a {
+                display: block;
+                color:white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+				font-size: 13px;
+            }
+            a:hover:not(.active) {
+                background-color:#97b3d1; <!--메뉴바에 마우스올리면 바뀌는 색 -->
+            }
+            .active {
+                background-color : #405770;
+            }
+    </style>
+
+	<style>
+	img{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	}
+	</style>
+<div id="wrap">
+
+    <header>
+
+
+			<img src = "https://postfiles.pstatic.net/MjAyMDA2MDlfMTIx/MDAxNTkxNjk5NzAyNjE4.RyjJ_sx0972klfblq8MYDCOFqZmOOOtW8vlyU-pdeWQg.lRyczhEFpwy5J31cQStU0-aY4xdSDSh72gp6oIABqbog.PNG.ods04193/music_platform2.png?type=w966" >
+            <!-- Music-Platform 제목 -->
+
+		  <ul>
+            <!--각자 저장위치에 맞게 경로명 수정해줘야행 ! -->
+            <li><a class="active" href="file:///C:\Users\Dami\Desktop\수업\Lab\html텀프로젝트\main.html">HOME</a></li>
+            <li><a href="file:///C:\Users\Dami\Desktop\수업\Lab\html텀프로젝트\chart.html">CHART</a></li>
+		    <li><a href="file:///C:\Users\Dami\Desktop\수업\Lab\html텀프로젝트\recommend.html">RECOMMEND</a></li>
+			<li><a href="file:///C:\Users\Dami\Desktop\수업\Lab\html텀프로젝트\board.html">BOARD</a></li>
+            <!--
+			<li><a href=""></a></li>
+            <li><a href=""></a></li>
+			-->
+			<!-- 필요시 이런식으로 누르면 해당 페이지로 이동하는 링크 리스트 -->
+     </ul>
+
+	</header>
+
+	<section>
+
+		<article>
+		<h2><p align = "center" >장르별 추천곡</p></h2>
+		<br>
+
+		<!--
+		<img src = "" >
+		-->
+		<!-- 이미지는 필요시 이런식으로 링크 넣어주면 됨 -->
+
+		<br>
+		<br>
+<details>
+<summary>ROCK/ METAL</summary>
+<!-- 아이유 - 에잇 -->
+<br>
+<!--<img src ="https://i.ytimg.com/vi/l0EYajZMuQw/maxresdefault.jpg" width="650" height="380" > <!-- 앨범사진 이런식으로 이미지 넣으면 됨 -->
+<br>
+<p align = "center"><iframe width="560" height="315" src="https://www.youtube.com/embed/TgOu00Mf3kI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<!-- 유투브 영상 소스파일 공유-복사 해서 붙여넣기 -->
+<br>
+<br>
+
+<b><pre>
+
+스물셋, 팔레트에 이은 나이 시리즈곡이다.
+
+앞서 선보인 곡들이 내가 청자에게 직접적으로 말을 거는 수필 형식의 이야기였다면,
+‘에잇’은 ‘너’ 라는 가상의 인물과 여러 비유를 사용해 나의 스물여덟을 고백한 짧은 소설과 같다.
+
+나의 개인적인 정서로부터 오는 것인지 재해로 인해 함께 힘든 시기를 견디고 있는
+사회 전반적인 분위기로부터 오는 것인지 혹은 둘 모두인지 확신할 수는 없지만,
+나의 스물여덟은 반복되는 무력감과 무기력함,
+그리고 ‘우리’가 슬프지 않았고 자유로울 수 있었던 ‘오렌지 섬’에 대한 그리움으로 기억될 것 같다.
+
+</pre></b>
+<br>
+</details>
+<!--<div id='disqus_thread'></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://discustest.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
+<br>
+
+<details>
+<summary>RAP/ HIPHOP</summary>
+<!-- 비 - 깡 -->
+<br>
+<!--<img src =" " width="650" height="380" > -->
+<br>
+<p align = "center"><iframe width="560" height="315"  src="https://www.youtube.com/embed/xqFvYsy4wE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<br>
+<br>
+
+<b><pre>
+
+2017년, 가수 비의 그랜드 컴백!
+감동의 ‘비’ 는 다시 내린다!
+
+2017년 12월 1일, 3년 만의 앨범 컴백, 그의 존재감을 드러내다
+가수 비의 미니앨범 [MY LIFE 愛] 전격 공개!
+
+올해 데뷔 15주년을 맞은 가수 비가 3년 만에 다시 돌아왔다!
+독보적인 무대 카리스마와 강렬한 퍼포먼스로 또다시 비는 내릴 것이다.
+이번에는 어떤 곡들로 대중들의 마음을 훔칠까?
+
+</pre></b>
+<br>
+</details>
+<!--<div id='disqus_thread'></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://discustest.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
+<br>
+
+<details>
+<summary>BALLAD</summary>
+<!-- 전미도 - 사랑하게 될 줄 알았어 -->
+<br>
+<!-- <img src =" " width="650" height="380" > -->
+<br>
+<p align = "center"><iframe width="560" height="315" src="https://www.youtube.com/embed/rOCymN-Rwiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<br>
+<br>
+
+<b><pre>
+
+지난 2006년 신효범이 발매한 원곡을 새롭게 리메이크한 ‘사랑하게 될 줄 알았어’는
+전미도의 진짜 가창력을 보여주는 반전이 살아있는 곡이다.
+
+전미도는 지난 2006년 뮤지컬 ‘미스터 마우스’로 데뷔해 ‘닥터 지바고’, ‘스위니 토드’등
+다수의 뮤지컬 작품에 참여하는 등 뛰어난 가창력을 갖추고 있는 것으로 알려졌다.
+전미도는 이번 OST를 통해 본인의 실력을 유감없이 펼쳐 팬들의 놀라움을 자아낼 것으로 기대된다.
+
+‘아로하’가 음원차트에서 좋은 성적을 보여준만큼,
+전미도의 ‘사랑하게 될 줄 알았어’ 역시 팬들의 큰 반응을 얻을 것으로 예상된다.
+
+또한 ‘사랑하게 될 줄 알았어’는 앞서 OST Part 7 제이레빗의 '넌 언제나'를 편곡한
+싱어송라이터 더오(The O), 밴드 문콕(Moonkock)으로 활동 중인 오동준이 편곡을 맡아
+복고적인 신시사이저 사운드와 다채로운 리듬 섹션을 배치하여 유행하는 뉴트로 컨셉으로 재탄생 시켰다.
+
+</pre></b>
+<br>
+</details>
+<!--<div id='disqus_thread'></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://discustest.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
+<br>
+
+<details>
+<summary>POP</summary>
+<!-- Ariana Grande & Justin Bieber - Stuck with U -->
+<br>
+<!-- <img src =" " width="650" height="380" > -->
+<br>
+<p align = "center"><iframe width="560" height="315" src="https://www.youtube.com/embed/pE49WK-oNjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<br>
+<br>
+
+<b><pre>
+
+In response to the COVID-19 crisis and to help further bolster relief efforts,
+all net proceeds from the streams and sales of “Stuck with U” will be donated
+to First Responders Children’s Foundation
+to fund grants and scholarships for children of healthcare workers,
+emergency medical technicians (EMTs), paramedics, police officers and firefighters
+serving at the front lines during the global pandemic.
+
+</pre></b>
+<br>
+</details>
+<!--<div id='disqus_thread'></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://discustest.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
+<br>
+
+</article>
+	</section>
+
+
+<img id="img1" style="position:absolute; left:0; top:0; z-index:999;" src="https://postfiles.pstatic.net/MjAyMDA2MDFfNzQg/MDAxNTkxMDA1NjczMjI1.yJsAc5aLQYPF8dn3KD72KXAWcQ3OfNrcrV9Hn5YlryMg.J2LXK-j4q0bqeDzni_YxKAmcYkWlSQ-I9vkgzO_tgQcg.PNG.ods04193/cursor.png?type=w966">
+
+
+<script language="JavaScript">
+//여기는 마우스커서 음표 따라오는 거 구현하기위한 자바스크립트 코드
+//자바스크립트 코드라 주석이 슬래쉬
+
+    // 마우스 커서 위치 담을 변수
+    var mouseX = 0;
+    var mouseY = 0;
+
+    function getMousePosition(e){
+        var eObj = window.event? window.event : e; // IE, FF 에 따라 이벤트 처리 하기
+        mouseX = eObj.clientX;
+        mouseY = eObj.clientY + document.documentElement.scrollTop; // 화면을 스크롤 했을때를 위한 처리 (스크롤 한 만큼 마우스 Y좌표에 + )
+
+    }
+
+    function moveImg(){
+        // 이미지 위치 파악하기
+        var m_x = parseInt(document.getElementById('img1').style.left.replace('px', ''));
+        var m_y = parseInt(document.getElementById('img1').style.top.replace('px', ''));
+
+        // 이미지 움직이기
+        document.getElementById('img1').style.left = Math.round(m_x + ((mouseX - m_x) / 5)) + 'px';
+        document.getElementById('img1').style.top = Math.round(m_y + ((mouseY - m_y) / 5)) + 'px';
+
+        // 부드럽게 따라오는 공식
+        // 현재 이미지위치 = 현재이미지 위치 + (이미지 위치기준 마우스 커서 위치 / 적절한 나누기 값)
+
+    }
+
+    document.onmousemove = getMousePosition; // 마우스가 움직이면 getMousePosition 함수 실행
+    setInterval("moveImg()", 50); // moveImg 함수 반복 실행하여 이미지 움직이기
+
+
+</script>
+
+	<footer>
+<p>Copyright ⓒ 2020 Lab All Rights Reserved</p>
+<!-- 추후에 팀네임 적읍시당 -->
+</footer>
+
+</div>
+
+</body>
+
+</html>

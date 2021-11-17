@@ -4,7 +4,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-# request = requests.get('https://www.melon.com/chart/index.htm')
+# request = requests.get('https://www.melon.com/chart/index.html')
 # print(request) # <Response [406]> : Unable to read header information. Page Connection Failed
 # https://kkyunstory.tistory.com/95
 

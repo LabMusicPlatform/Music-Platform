@@ -1,0 +1,133 @@
+<%@ page contentType="text/html; charset=utf-8"%>
+
+<html>
+<!-- jsp와 DB 연동했던 코드인테 큰 틀은 안 변하니까 참고하면 돼요 ! -->
+
+<head>
+
+<!--<title>Board</title> 타이틀 딱히 없어도 될 거 같아서 주석해놈-->
+
+<link rel="stylesheet" type="text/css" href="../css/board.css">
+<!-- 위 css stylesheet 링크는 원래 board에 css로 시트 디자인 만들어 둔 게 있었는데
+지금은 따로 css 만들어서 새로 경로 지정해주면 쓸 수 있음-->
+
+<script>
+<!-- jsp 함수 부분인데, 이름 넣는 칸에 이름 비어있으면 이름 입력하라고 알림 뜨는 등의 기능 설정해놓은 것-->
+
+function check(){
+
+	if(frm.name.value==""){
+
+		alert("이름을 입력하세요");
+
+		frm.name.focus();
+
+	}else if(frm.pass.value ==""){
+
+		alert("비밀번호를 입력하세요");
+
+		frm.pass.focus();
+
+	}else if(frm.mail.value ==""){
+
+		alert("이메일을 입력하세요");
+
+		frm.mail.focus();
+
+	}else if(frm.title.value ==""){
+
+		alert("제목을 입력하세요");
+
+		frm.title.focus();
+
+	}else if(frm.cont.value ==""){
+
+		alert("내용을 입력하세요");
+
+		frm.cont.focus();
+
+	}else
+
+		frm.submit();
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<h3>  Write </h3>
+
+<form name="frm" method="post" action="boardsave.jsp">
+<!-- jsp와 DB가 연동 되어있어야 사실 쓸 수 있는 메소드 부분-->
+
+	<table border="1" width="530">
+<!-- 테이블(표) 만들어 준 것-->
+
+		<tr>
+
+			<td align="center" width="100">이 름</td>
+
+			<td width="430"><input name="name" size="15"></td>
+
+		</tr> 
+        <!-- tr로 테이블 줄 ? 구분해서 생성해준다 해야하나 ? 여튼 그런 개념 -->
+
+		<tr>
+
+			<td align="center">암 호</td>
+
+			<td><input type="password" name="pass" size="15"></td>
+
+		</tr>
+
+		<tr>
+
+			<td align="center">메 일</td>
+
+			<td><input name="mail" size="25"></td>
+
+		</tr>
+
+		<tr>
+
+			<td align="center">제 목</td>
+
+			<td><input name="title" size="50"></td>
+
+		</tr>
+
+		<tr>
+
+			<td align="center">내 용</td>
+
+			<td><textarea name="cont" cols="50" rows="10"></textarea></td>
+
+		</tr>
+
+		<tr>
+        <!-- 아래는 클릭하면 해당 링크로 이동해주는 버튼-->
+
+			<td colspan="2" align="center" height="30">
+
+			    <input type="button"value="메  인"  onClick="location.href='../guest/guest_index.jsp'">&nbsp;
+                <!-- 원래 경로는 ocation.href='../guest/guest_index.jsp -->
+
+				<input type="button" value="작  성" onClick="check()">&nbsp;
+                <!--jsp와 DB 연동 되어있으면 작성 버튼 누를 시 check라고 지정된 함수 작동 -->
+
+				<input type="button" value="목  록" onClick="location.href='boardlist.jsp?page=1'">
+                <!-- 원래 경로는 ocation.href='boardlist.jsp?page=1 -->
+         </td>
+
+		</tr>
+
+	</table>
+
+</form>
+
+</body>
+
+</html>
